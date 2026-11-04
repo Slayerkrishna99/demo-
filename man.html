@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            border:8px solid pink;
+            background-color: rgb(102, 104, 156);
+        }
+        
+    </style>
+</head>
+<body>
+   <h2> This is a remark form</h2>
+   <form action="backend.php">
+    <label for="name">Name:</label>
+   <div>
+    <input type="text" name="myName" id="name"></div>  
+    <br>
+    <div>
+        roll:<input type="text" name="myRole">
+    </div> 
+    <br>
+    <div>
+        Email:<input type="email" name="myEmail">
+    </div>
+    <br>
+    <div>
+        Date:<input type="date" name="myDate">
+    </div>
+    <br>
+    <div>
+        Bonus:<input type="number" name="myBonus">
+    </div>
+    <br>
+    <div>
+        Are You Eligible:<input type="checkbox" name="myEligibility">
+    </div>
+    <br>
+    <div>
+        gender:Male<input type="radio" name="myGender">  FeMale<input type="radio" name="myGender">
+        other<input type="radio" name="myGender">
+    </div>
+    <br>
+    <div>
+        Write about yourself:<textarea name="myText" cols="30" rows="20" ></textarea>
+    </div>
+    <br>
+    <div>
+    <label for="car">Car</label>
+    <select name="myCar" id="car">
+    <option value="ind">Indica</option>
+     <option value="swt">Swift</option>
+      <option value="bmw">BMW</option>
+      </select>
+      </div>
+    <div>
+        <br>
+        <br>
+        <input type="submit" value="Submit now">
+        <input type="Reset" value="Reset now">
+        </div>
+    </form>
+</body>
+</html>
